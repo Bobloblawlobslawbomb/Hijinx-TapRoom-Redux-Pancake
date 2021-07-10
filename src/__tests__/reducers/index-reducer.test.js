@@ -24,6 +24,7 @@ describe("rootReducer", () => {
 
   test('Check that ADD_KEG action works for kegListReducer and root reducer', () => {
     const action = {
+      type: 'ADD_KEG',
       name: 'Apple Cider',
       brand: 'Envy Apple Company',
       price: '7.77',
