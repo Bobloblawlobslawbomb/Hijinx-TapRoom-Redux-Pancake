@@ -1,4 +1,6 @@
 import formVisibleReducer from '../../reducers/form-visible-reducer';
+import kegListReducer from '../../reducers/keg-list-reducer';
+
 
 describe("formVisibleReducer", () => {
 
@@ -9,5 +11,5 @@ describe("formVisibleReducer", () => {
   test('Should toggle form visibility state to true', () => {
     expect(formVisibleReducer(false, { type: 'TOGGLE_FORM' })).toEqual(true);
   });
-  
+
 });
