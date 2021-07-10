@@ -2,6 +2,8 @@ import kegListReducer from '../../reducers/keg-list-reducer';
 
 describe('kegListReducer', () => {
 
+  let action;
+
   const currentState = {
     1: {
       name: 'Apple Cider',
@@ -23,7 +25,6 @@ describe('kegListReducer', () => {
     }
   }
 
-  let action;
   const kegData = {
     name: 'Apple Cider',
     brand: 'Envy Apple Company',
